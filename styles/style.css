@@ -3,7 +3,7 @@ body, header, div, .page, section {
   border: 1px solid red;
 }
 
-img, h1, h2, h3, h4, p{
+img, h1, h2, h3, h4, p, a{
   border: 1px solid blue;
 }
 
@@ -196,6 +196,58 @@ img, h1, h2, h3, h4, p{
 
 .table__text_margin_bottom {
   margin-bottom: 20px;
+}
+
+.content__feynman {
+  margin-bottom: 90px;
+}
+
+.feynman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 890px;
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  margin: 100px 0 0;
+  z-index: 1;
+  width: 648px;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.feynman__subtitle {
+  margin: 70px 0 0;
+  z-index: 1;
+  text-align: center;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+}
+
+.feynman__main-illustration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  z-index: 1;
+  color: #2f80ed;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
 }
 
 .table__cell_theme_dark {
