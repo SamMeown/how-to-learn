@@ -152,10 +152,11 @@ img, h1, h2, h3, h4, p, a{
 }
 
 .digits__title {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .section-subtitle {
+  /*Обнуляем дефолтный отступ*/
   margin: 0;
   width: 60%;
   font-size: 24px;
@@ -199,7 +200,7 @@ img, h1, h2, h3, h4, p, a{
 }
 
 .content__feynman {
-  margin-bottom: 90px;
+  margin-bottom: 0;
 }
 
 .feynman {
@@ -250,9 +251,47 @@ img, h1, h2, h3, h4, p, a{
   line-height: 51px;
 }
 
+.kaufman {
+  position: relative;
+  padding: 90px 0;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+
+.kaufman__info-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.kaufman__title {
+  margin-bottom: 20px;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table__row_theme_dark {
+  padding-top: 80px;
+}
+
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  width: 877px;
+  height: 877px;
 }
