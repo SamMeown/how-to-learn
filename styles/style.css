@@ -87,8 +87,12 @@ img, h1, h2, h3, h4, p, a{
   background-color: #2f80ed;
 }
 
+.content {
+  padding-top: 100px;
+}
+
 .content__description {
-  margin: 100px 0;
+  margin-bottom: 100px;
 }
 
 .description {
