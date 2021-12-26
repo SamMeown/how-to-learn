@@ -78,17 +78,10 @@
   background-color: #2f80ed;
 }
 
-.content {
-  padding-top: 100px;
-}
-
-.content__description {
-  margin-bottom: 100px;
-}
-
 .description {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -107,17 +100,21 @@
   line-height: 1.2;
 }
 
-.two-columns__text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
 }
 
 .two-columns__paragraph {
-  margin: 0;
   padding: 0;
+  margin: 0 0 30px;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -126,32 +123,24 @@
   line-height: 34px;
 }
 
-.two-columns__paragraph_space_bottom {
-  margin-bottom: 30px;
-}
-
-.content__digits {
-  margin-bottom: 100px;
-}
-
 .digits {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px 0 100px;
 }
 
 .section-title {
-  /*Обнуляем дефолтный отступ*/
-  margin: 0;
+  /* По БЭМ для позиционирования этого блока по идее надо подмиксовать
+   digits__title с заданным  margin-bottom. Но так как нам категорически
+   запрещено добавлять классы, здесь мы нарушим БЭМ и добавим позиционирование
+   в стиль блока */
+  margin: 0 0 20px;
   width: 60%;
   font-size: 60px;
   font-weight: bold;
   line-height: 1.15;
   text-align: center;
-}
-
-.digits__title {
-  margin-bottom: 20px;
 }
 
 .section-subtitle {
@@ -188,14 +177,14 @@
 }
 
 .table__text {
-  margin: 0;
+  margin: 0 0 20px;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
 }
 
-.table__text_margin_bottom {
-  margin-bottom: 20px;
+.table__text:last-of-type {
+  margin: 0;
 }
 
 .content__feynman {
