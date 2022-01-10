@@ -36,7 +36,7 @@
 }
 
 .header__title {
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 2;
   width: 730px;
   font-size: 102px;
@@ -49,6 +49,7 @@
   bottom: 30px;
   left: 64px;
   z-index: 2;
+  margin: 0;
   width: 388px;
   font-size: 18px;
   font-weight: normal;
