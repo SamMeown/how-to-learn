@@ -139,13 +139,6 @@
   line-height: 34px;
 }
 
-.digits {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 100px 0 100px;
-}
-
 .section-title {
   /* По БЭМ для позиционирования этого блока по идее надо подмиксовать
    digits__title с заданным  margin-bottom. Но так как нам категорически
@@ -167,6 +160,62 @@
   font-weight: normal;
   line-height: 34px;
   text-align: center;
+}
+
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 80%;
+}
+
+.cards {
+  display: flex;
+  justify-content:start;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 920px;
+  list-style: none;
+}
+
+.cards__item {
+  margin-top: 60px;
+  margin-right: 100px;
+  width: 240px;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 0 40px 43px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 0 0 16px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.cards__description {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+}
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 100px;
 }
 
 .table {
