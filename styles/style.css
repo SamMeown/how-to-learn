@@ -182,9 +182,12 @@
 }
 
 .cards__item {
+  /* Чтобы карточка приняла минимально возможную ширину */
+  flex-basis: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
   margin-top: 60px;
   margin-right: 100px;
-  width: 240px;
 }
 
 .cards__item:nth-of-type(3n) {
@@ -192,6 +195,7 @@
 }
 
 .cards__image {
+  box-sizing: border-box;
   width: 160px;
   height: 160px;
   margin: 0 40px 43px;
@@ -200,12 +204,15 @@
 
 .cards__title {
   margin: 0 0 16px;
+  text-align: center;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.15;
 }
 
 .cards__description {
+  margin: 0;
+  text-align: center;
   font-size: 18px;
   font-weight: normal;
   line-height: 23px;
