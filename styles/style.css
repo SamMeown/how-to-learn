@@ -1,109 +1,18 @@
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
 
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  margin: 0 auto;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 
-  padding: 0;
-}
 
-.rotation {
-  animation: rotation 20s linear infinite;
-}
 
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-  overflow: hidden;
-}
 
-.logo {
-  width: 183px;
-  height: 32px;
-  background-image: url(../images/logo_place_header.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-}
 
-.header__title {
-  margin: 0 0 0 64px;
-  z-index: 2;
-  width: 730px;
-  font-size: 102px;
-  font-weight: bold;
-  line-height: 96px;
-}
 
-.header__subtitle {
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  z-index: 2;
-  margin: 0;
-  width: 388px;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
-}
 
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-  transition: opacity 0.3s ease;
-}
 
-.header__link:hover {
-  opacity: 0.7;
-}
 
-.header__main-illustration {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  width: 765px;
-  height: 608px;
-}
 
-.header__square-pic {
-  position: absolute;
-  top: 64px;
-  right: 0;
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-}
 
-.description {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
-}
+
 
 .two-columns {
   display: flex;
