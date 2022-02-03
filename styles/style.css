@@ -14,44 +14,11 @@
 
 
 
-.two-columns {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-}
 
-.two-columns__brief {
-  width: 175px;
-  margin: 0;
-  padding: 0;
-  color: #2f80ed;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
-}
 
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
-}
 
-.two-columns__paragraph {
-  padding: 0;
-  margin: 0 0 30px;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
-}
 
-.two-columns__paragraph:last-of-type {
-  margin-bottom: 0;
-}
 
-.two-columns__span-accent {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-}
 
 .section-title {
   /* По БЭМ для позиционирования этого блока по идее надо подмиксовать
