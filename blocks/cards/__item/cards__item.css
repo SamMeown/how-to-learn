@@ -1,0 +1,12 @@
+.cards__item {
+  /* Чтобы карточка приняла минимально возможную ширину */
+  flex-basis: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
+}
