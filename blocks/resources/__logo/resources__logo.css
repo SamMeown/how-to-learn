@@ -3,4 +3,11 @@
   height: 38px;
   object-fit: contain;
   object-position: center;
+  transition: opacity 0.3s ease;
+}
+
+/* По идее transition и hover надо приделать линку, а не картинке.
+Но в данный момент нам запрещено добавлять классы не по брифу, поэтому делаем так */
+.resources__logo:hover {
+  opacity: 0.7;
 }
